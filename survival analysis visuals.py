@@ -1,7 +1,8 @@
 
 
-#Below is the python code for one cohort, TED. But the same code was used 
-#to develope a a helper function to apply to different cohorts.
+#Below is the Python code for one cohort, TED (Thyroid Eye Disease). But the same code was used 
+#to develope a a helper function to apply to different cohorts across several 
+#time-to-event datasets.
 
 %python
 # Import libraries
