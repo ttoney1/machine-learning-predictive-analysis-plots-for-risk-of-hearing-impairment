@@ -1,8 +1,12 @@
+# Below is the Python code for one cohort, TED (Thyroid Eye Disease). The code creates a 
+# helper function by using the input variables of time, event (1 for event, 0 for censored), 
+# and predictor variable (e.g. gender) to apply routine steps across different predictor 
+# columns to reduce repetitive lines of code. The same code was used apply to different 
+# cohorts across several time-to-event datasets. 
 
-
-#Below is the Python code for one cohort, TED (Thyroid Eye Disease). But the same code was used 
-#to develope a a helper function to apply to different cohorts across several 
-#time-to-event datasets.
+# Predictor variables (covariates) hypothesized to influence time-to-event in the 
+# study are gender, age group, and insurance. 
+# Dependent variables are time (date) and event (hearing loss).
 
 %python
 # Import libraries
